@@ -414,6 +414,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .menu-item {
+  position: relative;
   display: none;
   animation: fadeIn 1s ease-in-out;
 }
@@ -477,11 +478,11 @@ input[type="search"]::-webkit-search-cancel-button {
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.fa-heart {
+.menu-item .fa-heart {
   color: var(--primary-color);
   position: absolute;
   top: 5%;
-  left: 94%;
+  left: 92%;
   font-size: 2rem;
 }
 
@@ -888,6 +889,11 @@ button:active {
     font-size: 2.5rem;
   }
 
+  .heading-1 {
+    margin-top: 1em;
+    font-size: 3.5rem;
+  }
+
   .menu-btn-wrapper {
     display: block;
   }
@@ -941,6 +947,10 @@ button:active {
 
   .nav-items li:last-child {
     border-bottom: none;
+  }
+
+  .about{
+    margin: 2em 0;
   }
 
   .menu-item .menu-item-detail {
