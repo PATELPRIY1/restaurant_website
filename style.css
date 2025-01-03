@@ -993,6 +993,18 @@ button:active {
     height: 100px;
   }
 
+  .popup-content{
+    width: max(250px, 80%);
+  }
+
+  .right h2 {
+    font-size: 2rem;
+  }
+
+  .right p {
+    font-size: 1.5rem;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
