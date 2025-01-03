@@ -1,0 +1,19 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+gallery.html
+invoice.html
+invoice.css
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore backups or temporary files
+*.bak
+*.tmp
+*.html
+*.css
